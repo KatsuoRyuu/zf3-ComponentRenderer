@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit colors="true">
+    <filter>
+        <whitelist>
+            <directory>./src</directory>
+            <directory>./config</directory>
+            <exclude>
+                <directory>./test/</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+    <testsuites>
+        <testsuite name="ComponentRenderer">
+            <directory>./test/src/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
